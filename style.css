@@ -1,6 +1,6 @@
 .thingy {
-	height: 100px;
-	width: 100px;
-	background-color: green
-
+	height: 20px;
+	width: 200px;
+	margin: 10px;
+	background-color: green;
 }
