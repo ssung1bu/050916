@@ -1,5 +1,15 @@
 $(document).ready(
 	function(){
+	$('h1').animate( {
+	opacity: 0.25,
+	width: "70%"
+	}, 2000,  
+
+	function(){
+		$('h1').fadeOut(2000);
+	}
+	)
+
 	var button = $("#button-1");
 	button.click(function(){
 		var value = $("#field-1").val();
